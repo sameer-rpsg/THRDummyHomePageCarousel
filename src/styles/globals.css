@@ -2439,7 +2439,7 @@ hr {
 
 .home-carousal {
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	position: relative;
 	overflow: hidden;
 	aspect-ratio: 16/9;
@@ -2987,7 +2987,7 @@ a {
 	font-weight: 600;
 	font-size: 16px;
 	font-family: var(--font-family-secondary);
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .hcr-img-cont {
@@ -8927,4 +8927,26 @@ a {
 .swiper-pagination-bullet-active{
   background-color:#de1f26 !important;
 
+}
+.swiper-button-prev, .swiper-button-next{
+  top: var(--swiper-navigation-top-offset, 50%) !important;
+  width: 50px !important;
+    height: 50px !important;
+  background-color: #fff !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  color: #000;
+  font-size: 1.5rem !important;
+}
+@media only screen and (max-width:900px) {
+  .swiper-button-prev, .swiper-button-next{
+  top: var(--swiper-navigation-top-offset, 50%) !important;
+  width: 30px !important;
+    height: 30px !important;
+  background-color: #fff !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  color: #000;
+  font-size: 1rem !important;
+}
 }
