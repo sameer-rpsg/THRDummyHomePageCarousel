@@ -125,6 +125,15 @@
   position: fixed;
   top: 0;
 }
+.hamburger .line {
+    width: 23px;
+    height: 2px;
+    background-color: #db242a;
+    display: block;
+    margin: 4px auto;
+    transition: all .3s 
+ease-in-out;
+}
 @media only screen and (max-width: 900px) {
   .Header_Wrapper {
     justify-content: center;
