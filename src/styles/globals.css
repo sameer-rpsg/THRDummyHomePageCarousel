@@ -5186,7 +5186,8 @@ a {
 		font-size: 23px;
 		font-weight: 600;
 		line-height: 1.15;
-		margin-bottom: 15px;
+        margin: 15px auto 0;
+		/* margin-bottom: 15px; */
 	}
 
 	.hcr-author {
@@ -5195,7 +5196,7 @@ a {
 		text-align: center;
 		font-weight: 600;
 		font-size: 12px;
-		margin-bottom: 15px;
+		margin-bottom: 35px;
 	}
 
 	.hcr-p {
@@ -8912,9 +8913,18 @@ a {
     padding: 10px 0px !important;
   }
 }
-.home-carousal .swiper-button-prev,.home-carousal .swiper-button-next{
-  display: none !important;
-}
+
 
 /* Home_module.css */
 
+.swiper-pagination{
+  z-index: 99999;
+}
+.swiper-pagination-bullet{
+  z-index: 9999;
+  background-color: #fff !important;
+}
+.swiper-pagination-bullet-active{
+  background-color:#de1f26 !important;
+
+}

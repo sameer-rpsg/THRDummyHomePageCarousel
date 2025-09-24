@@ -19,18 +19,15 @@ const HeroSection = () => {
                   // install Swiper modules
                   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                   loop={true}
-                  autoplay={{
-                    delay: 5000,
-                    disableOnInteraction: false,
-                     pauseOnMouseEnter: true,
-                  }}
-                  // autoplay={{
-                  //     delay: 500,
-                  //     disableOnInteraction: false
-                  // }}
+                //   autoplay={{
+                //     delay: 5000,
+                //     disableOnInteraction: false,
+                //      pauseOnMouseEnter: true,
+                //   }}
+                  
                   spaceBetween={0}
                   slidesPerView={1}
-                  //   navigation
+                    navigation
                   pagination={{ clickable: false }}
                   //   scrollbar={{ draggable: true }}
 
@@ -41,12 +38,12 @@ const HeroSection = () => {
                 >
                   <SwiperSlide style={{ width: "100%" }}>
                     <div className="home-cr-abs">
-                      <div className="hcr-text d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                      {/* <div className="hcr-text d-xxl-block d-xl-block d-lg-block d-md-block d-none">
                         <h1 className="hcr-title">
                           Recently viewed Rolex watches
                         </h1>
                         <span className="hcr-author">BY Team THR India</span>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="hcr-img-cont">
                       <div className="pos-rel-full">
@@ -56,7 +53,7 @@ const HeroSection = () => {
                           decoding="async"
                           data-nimg="fill"
                           sizes="100vw"
-                          src="https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1/rolexcom/returning-visitor/family/submariner"
+                          src="https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1/rolexcom/collection/watches-grid/popin-cards/m226659-0002/m226659-0002_v01"
                           style={{
                             position: "absolute",
                             height: "100%",
@@ -70,7 +67,7 @@ const HeroSection = () => {
                   </SwiperSlide>
                   <SwiperSlide style={{ width: "100%" }}>
                     <div className="home-cr-abs">
-                      <div className="hcr-text d-xxl-block d-xl-block d-lg-block d-md-block d-none">
+                      <div className="hcr-text d-xxl-block d-xl-block d-lg-block">
                         <h1 className="hcr-title">
                           ‘OG’ Is Like An Indian Tarantino Film: Sriya Reddy 
                         </h1>
@@ -101,7 +98,7 @@ const HeroSection = () => {
               </div>
             </a>
           </div>
-          <div className="col-sm-12 d-block d-md-none">
+          {/* <div className="col-sm-12 d-block d-md-none">
             <a
               className="mob-hero-text"
               href="/features/insight/71st-national-film-awards-shah-rukh-rani-mukerji-vikrant-massey-bag-first-wins-mohanlal-gets-dadasaheb-phalke-award"
@@ -112,7 +109,7 @@ const HeroSection = () => {
               </h1>
               <span className="hcr-author">BY Team THR India</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
