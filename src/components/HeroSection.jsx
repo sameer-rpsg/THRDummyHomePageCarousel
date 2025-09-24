@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 p-0">
-            <a href="/features/insight/71st-national-film-awards-shah-rukh-rani-mukerji-vikrant-massey-bag-first-wins-mohanlal-gets-dadasaheb-phalke-award">
+            {/* <a href="/features/insight/71st-national-film-awards-shah-rukh-rani-mukerji-vikrant-massey-bag-first-wins-mohanlal-gets-dadasaheb-phalke-award"> */}
               <div className="home-carousal">
                 <Swiper
                   // install Swiper modules
@@ -37,6 +37,7 @@ const HeroSection = () => {
                   style={{ height: "100%", width: "100%" }}
                 >
                   <SwiperSlide style={{ width: "100%" }}>
+                    <a href="https://media.rolex.com/">
                     <div className="home-cr-abs">
                       {/* <div className="hcr-text d-xxl-block d-xl-block d-lg-block d-md-block d-none">
                         <h1 className="hcr-title">
@@ -64,8 +65,11 @@ const HeroSection = () => {
                         />
                       </div>
                     </div>
+                    </a>
                   </SwiperSlide>
                   <SwiperSlide style={{ width: "100%" }}>
+                    <a href="/">
+                    
                     <div className="home-cr-abs">
                       <div className="hcr-text d-xxl-block d-xl-block d-lg-block">
                         <h1 className="hcr-title">
@@ -93,10 +97,11 @@ const HeroSection = () => {
                         />
                       </div>
                     </div>
+                    </a>
                   </SwiperSlide>
                 </Swiper>
               </div>
-            </a>
+            {/* </a> */}
           </div>
           {/* <div className="col-sm-12 d-block d-md-none">
             <a
